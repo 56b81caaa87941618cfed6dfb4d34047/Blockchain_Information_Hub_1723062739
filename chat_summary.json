@@ -48,5 +48,11 @@
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time blockchain data updates\", \"checked\": true}, {\"feature\": \"User authentication for secure access\", \"checked\": false}, {\"feature\": \"Interactive blockchain charts and graphs\", \"checked\": true}, {\"feature\": \"Customizable alert notifications for blockchain changes\", \"checked\": false}, {\"feature\": \"User feedback form for improvements\", \"checked\": true}, {\"feature\": \"Dark and light mode for better UI experience\", \"checked\": false}], \"input_token_count\": 214, \"output_token_count\": 96, \"time_taken\": \"0:00:06.223784\"}",
         "timestamp": "07082024203325",
         "message_id": "guest07082024203317"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Submit' button to be positioned on the page?\", \"option1\": \"At the bottom of the form\", \"option2\": \"Fixed at the bottom of the screen as the user scrolls\"}, {\"question 2\": \"What action should occur when the 'Submit' button is clicked?\", \"option1\": \"Send form data to an email address\", \"option2\": \"Store form data in the database and display a confirmation message\"}], \"input_token_count\": 260, \"output_token_count\": 108, \"time_taken\": \"0:00:06.982365\"}",
+        "timestamp": "07082024203326",
+        "message_id": "guest07082024203317"
     }
 ]
