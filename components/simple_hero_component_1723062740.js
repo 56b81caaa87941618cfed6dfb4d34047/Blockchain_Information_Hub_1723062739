@@ -3,7 +3,15 @@
 - To the right: There is an image relevant to the app.
 */
 Vue.component("simple_hero_component_1723062740", {
-    template: `
+        <nav id="navbar" class="bg-gray-800 text-white py-4 px-6 shadow-lg fixed w-full top-0 z-50">
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-400">About</a></li>
+                <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1 pt-20">
         <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
             <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
                 <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
