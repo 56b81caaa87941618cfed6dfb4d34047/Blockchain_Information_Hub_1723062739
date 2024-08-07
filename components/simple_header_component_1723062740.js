@@ -21,7 +21,9 @@ Vue.component("simple_header_component_1723062740", {
                         </svg>
                     </button>
 
-                    <button id="submit-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+
+                    <button id="submit-button" class="bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded shadow-lg">Submit</button>
+
                     
 
                 <div id="mobile-menu-2" class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1">
