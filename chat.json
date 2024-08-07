@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Sure, I can add a navbar with navlinks for home, about, and contact.",
+        "message_id": "guest07082024203750",
+        "timestamp": "07082024203751",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned on the app's interface?\", \"option1\": \"In the center of the homepage\", \"option2\": \"At the bottom of the screen as a floating action button\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is pressed?\", \"option1\": \"Display a pop-up message saying 'Hello World'\", \"option2\": \"Navigate to a new page with detailed information\"}], \"input_token_count\": 261, \"output_token_count\": 111, \"time_taken\": \"0:00:03.266184\"}",
         "message_id": "guest07082024203732",
