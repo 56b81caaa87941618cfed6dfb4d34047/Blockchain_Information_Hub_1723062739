@@ -2,15 +2,17 @@
 */
 Vue.component("simple_cta_component_1723062740", {
     template: `
-    <section id="cta-component" class="bg-gray-50 dark:bg-gray-800 flex-1">
-        <nav class="bg-black p-4">
-            <ul class="flex space-x-4">
-                <li><a href="#home" class="text-purple-700">Home</a></li>
-                <li><a href="#about" class="text-purple-700">About</a></li>
-                <li><a href="#contact" class="text-purple-700">Contact</a></li>
-            </ul>
-        </nav>
-        </nav>
+    <section id="cta-component" class="bg-gray-50 dark:bg-gray-800 flex-1 flex">
+        <div class="flex-1">
+            <nav class="bg-black p-4">
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="text-purple-700">Home</a></li>
+                    <li><a href="#about" class="text-purple-700">About</a></li>
+                    <li><a href="#contact" class="text-purple-700">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="cta-inner-container" class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6 flex-1">
         <div id="cta-inner-container" class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div id="cta-content" class="max-w-screen-sm mx-auto text-center">
                 <div id="cta-title-container" class="flex">
@@ -25,6 +27,16 @@ Vue.component("simple_cta_component_1723062740", {
                     <a id="cta-button" href="#" class="flex-1 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Explore Blockchain Insights</a>
                 </div>
             </div>
+        </div>
+        </div>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 p-4">
+            <nav>
+                <ul>
+                    <li class="mb-2"><a href="#home" class="text-purple-700">Home</a></li>
+                    <li class="mb-2"><a href="#about" class="text-purple-700">About</a></li>
+                    <li class="mb-2"><a href="#contact" class="text-purple-700">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </section>
         `,
