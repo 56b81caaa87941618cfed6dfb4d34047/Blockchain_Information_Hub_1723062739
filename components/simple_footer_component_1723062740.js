@@ -14,7 +14,17 @@ Vue.component("simple_footer_component_1723062740", {
                 <a href="#" class="text-black hover:text-purple-500">Contact</a>
             </div>
         </nav>
-    </header>
+
+    <aside id="sidebar-section" class="w-64 h-full bg-gray-800 text-white fixed">
+        <div id="sidebar-container" class="p-4">
+            <nav id="sidebar-links" class="space-y-4">
+                <a href="#" class="block text-white hover:text-purple-500">Home</a>
+                <a href="#" class="block text-white hover:text-purple-500">About</a>
+                <a href="#" class="block text-white hover:text-purple-500">Contact</a>
+            </nav>
+        </div>
+    </aside>
+
 
     <footer id="footer-section" class="flex-1 bg-white">
             <div id="footer-container" class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
