@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time blockchain news feed on the homepage\", \"checked\": true}, {\"feature\": \"Interactive blockchain technology explainer in the About section\", \"checked\": false}, {\"feature\": \"Live chat support on the Contact page\", \"checked\": true}, {\"feature\": \"Search functionality to explore blockchain topics\", \"checked\": true}, {\"feature\": \"Subscription form for blockchain updates newsletters\", \"checked\": false}, {\"feature\": \"Responsive design for mobile and tablet views\", \"checked\": true}], \"input_token_count\": 219, \"output_token_count\": 104, \"time_taken\": \"0:00:03.619872\"}",
+        "message_id": "guest07082024203355",
+        "timestamp": "07082024203400",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the sidebar to be fixed or collapsible?\", \"option1\": \"Fixed - It will always be visible on the side of the page.\", \"option2\": \"Collapsible - Users can choose to expand or hide it.\"}, {\"question 2\": \"On which side of the page do you prefer the sidebar to be?\", \"option1\": \"Left side of the page.\", \"option2\": \"Right side of the page.\"}], \"input_token_count\": 265, \"output_token_count\": 104, \"time_taken\": \"0:00:03.564276\"}",
         "message_id": "guest07082024203355",
