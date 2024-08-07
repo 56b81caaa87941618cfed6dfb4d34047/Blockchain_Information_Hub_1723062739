@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add a button that says Submit",
+        "message_id": "guest07082024203317",
+        "timestamp": "07082024203318",
+        "component_file_name": "simple_header_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Sticky header navigation for easy access to main sections at any scroll position\", \"checked\": true}, {\"feature\": \"Dropdown menu under 'About' for additional information like team, technology, and mission\", \"checked\": false}, {\"feature\": \"Search functionality within the navbar to quickly find specific blockchain information\", \"checked\": true}, {\"feature\": \"Live chat support option in the 'Contact' section for immediate assistance\", \"checked\": false}, {\"feature\": \"Dark/light mode toggle on the navbar for user preference\", \"checked\": true}, {\"feature\": \"Language selection option for global user accessibility\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 132, \"time_taken\": \"0:00:07.696307\"}",
         "message_id": "guest07082024203258",
