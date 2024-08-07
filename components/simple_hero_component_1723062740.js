@@ -3,12 +3,13 @@
 - To the right: There is an image relevant to the app.
 */
 Vue.component("simple_hero_component_1723062740", {
-        <nav id="navbar" class="bg-gray-800 text-white py-4 px-6 shadow-lg fixed w-full top-0 z-50">
+        <nav id="navbar" class="bg-white text-black py-4 px-6 shadow-lg fixed w-full top-0 z-50">
             <ul class="flex space-x-4">
-                <li><a href="#home" class="hover:text-gray-400">Home</a></li>
-                <li><a href="#about" class="hover:text-gray-400">About</a></li>
-                <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+                <li><a href="#home" class="hover:text-purple-500">Home</a></li>
+                <li><a href="#about" class="hover:text-purple-500">About</a></li>
+                <li><a href="#contact" class="hover:text-purple-500">Contact</a></li>
             </ul>
+        </nav>
         </nav>
 
         <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1 pt-20">
