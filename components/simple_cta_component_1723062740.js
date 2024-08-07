@@ -3,12 +3,13 @@
 Vue.component("simple_cta_component_1723062740", {
     template: `
     <section id="cta-component" class="bg-gray-50 dark:bg-gray-800 flex-1">
-        <nav class="bg-gray-800 p-4">
+        <nav class="bg-black p-4">
             <ul class="flex space-x-4">
-                <li><a href="#home" class="text-white">Home</a></li>
-                <li><a href="#about" class="text-white">About</a></li>
-                <li><a href="#contact" class="text-white">Contact</a></li>
+                <li><a href="#home" class="text-purple-700">Home</a></li>
+                <li><a href="#about" class="text-purple-700">About</a></li>
+                <li><a href="#contact" class="text-purple-700">Contact</a></li>
             </ul>
+        </nav>
         </nav>
         <div id="cta-inner-container" class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div id="cta-content" class="max-w-screen-sm mx-auto text-center">
