@@ -1,5 +1,50 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the sidebar to be always visible or to appear upon a user action, such as clicking a menu icon?\", \"option1\": \"Always visible\", \"option2\": \"Appear upon user action\"}, {\"question 2\": \"Should the sidebar be positioned on the left or right side of the screen?\", \"option1\": \"Left side\", \"option2\": \"Right side\"}], \"input_token_count\": 401, \"output_token_count\": 93, \"time_taken\": \"0:00:03.052639\"}",
+        "message_id": "guest07082024203429",
+        "timestamp": "07082024203433",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "I will add the sidebar with navlinks home, about and contact.",
+        "message_id": "guest07082024203429",
+        "timestamp": "07082024203430",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a sidebar with navlinks home, about and contact",
+        "message_id": "guest07082024203429",
+        "timestamp": "07082024203430",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time blockchain news feed on the homepage\", \"checked\": true}, {\"feature\": \"Interactive blockchain technology explainer in the About section\", \"checked\": false}, {\"feature\": \"Live chat support on the Contact page\", \"checked\": true}, {\"feature\": \"Search functionality to explore blockchain topics\", \"checked\": true}, {\"feature\": \"Subscription form for blockchain updates newsletters\", \"checked\": false}, {\"feature\": \"Responsive design for mobile and tablet views\", \"checked\": true}], \"input_token_count\": 219, \"output_token_count\": 104, \"time_taken\": \"0:00:03.619872\"}",
+        "message_id": "guest07082024203355",
+        "timestamp": "07082024203400",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the sidebar to be fixed or collapsible?\", \"option1\": \"Fixed - It will always be visible on the side of the page.\", \"option2\": \"Collapsible - Users can choose to expand or hide it.\"}, {\"question 2\": \"On which side of the page do you prefer the sidebar to be?\", \"option1\": \"Left side of the page.\", \"option2\": \"Right side of the page.\"}], \"input_token_count\": 265, \"output_token_count\": 104, \"time_taken\": \"0:00:03.564276\"}",
+        "message_id": "guest07082024203355",
+        "timestamp": "07082024203400",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a sidebar with navlinks home, about and contact",
         "message_id": "guest07082024203355",
@@ -45,54 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time blockchain data updates\", \"checked\": true}, {\"feature\": \"User authentication for secure access\", \"checked\": false}, {\"feature\": \"Interactive blockchain charts and graphs\", \"checked\": true}, {\"feature\": \"Customizable alert notifications for blockchain changes\", \"checked\": false}, {\"feature\": \"User feedback form for improvements\", \"checked\": true}, {\"feature\": \"Dark and light mode for better UI experience\", \"checked\": false}], \"input_token_count\": 214, \"output_token_count\": 96, \"time_taken\": \"0:00:06.223784\"}",
-        "message_id": "guest07082024203317",
-        "timestamp": "07082024203325",
-        "component_file_name": "simple_header_component_1723062740",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Acknowledged, adding a button with the label \"Submit\".",
-        "message_id": "guest07082024203317",
-        "timestamp": "07082024203318",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "add a button that says Submit",
-        "message_id": "guest07082024203317",
-        "timestamp": "07082024203318",
-        "component_file_name": "simple_header_component_1723062740",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Sticky header navigation for easy access to main sections at any scroll position\", \"checked\": true}, {\"feature\": \"Dropdown menu under 'About' for additional information like team, technology, and mission\", \"checked\": false}, {\"feature\": \"Search functionality within the navbar to quickly find specific blockchain information\", \"checked\": true}, {\"feature\": \"Live chat support option in the 'Contact' section for immediate assistance\", \"checked\": false}, {\"feature\": \"Dark/light mode toggle on the navbar for user preference\", \"checked\": true}, {\"feature\": \"Language selection option for global user accessibility\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 132, \"time_taken\": \"0:00:07.696307\"}",
-        "message_id": "guest07082024203258",
-        "timestamp": "07082024203307",
-        "component_file_name": "simple_header_component_1723062740",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed or dynamic as the user scrolls down the page?\", \"option1\": \"Fixed at the top of the screen\", \"option2\": \"Dynamic, disappears as the user scrolls down and reappears on scroll up\"}, {\"question 2\": \"Should the navbar adapt its style based on the current page being viewed (indicating the active page) or remain uniform across all pages?\", \"option1\": \"Adapt style to indicate the active page\", \"option2\": \"Remain uniform across all pages\"}], \"input_token_count\": 265, \"output_token_count\": 125, \"time_taken\": \"0:00:07.281771\"}",
-        "message_id": "guest07082024203258",
-        "timestamp": "07082024203306",
-        "component_file_name": "simple_header_component_1723062740",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "In the conversation, the user requested the addition of a navbar featuring links labeled \"home,\" \"about,\" and \"contact.\" The AI acknowledged this request and confirmed it was working on the integration of the navbar. Seeking further clarity, the AI asked the user to describe the project a bit more.",
-        "timestamp": "07082024203356",
-        "message_id": "guest07082024203355"
+        "content": "In the conversation, the user requested various features for a project. They first asked the AI to add a button labeled \"Submit,\" which the AI acknowledged. The user was then presented with a checklist of additional features to consider, including real-time blockchain data updates, user authentication, interactive charts, customizable alerts, a user feedback form, and dark/light mode options, with some features marked as implemented and others not. Following this, a new checklist was provided, suggesting features like sticky header navigation, a dropdown menu under \"About,\" search functionality, live chat support, and options for dark/light mode and language selection. The user was also asked two questions regarding the navbar: whether it should be fixed or dynamic as the user scrolls, and whether it should adapt its style based on the current page or remain uniform. The AI confirmed it would work on adding a navbar with links to home, about, and contact, before requesting more details about the project.",
+        "timestamp": "07082024203433",
+        "message_id": "guest07082024203429"
     }
 ]
