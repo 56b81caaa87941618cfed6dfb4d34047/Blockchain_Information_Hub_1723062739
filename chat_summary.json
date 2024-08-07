@@ -18,5 +18,11 @@
         "content": "Definitely, working on adding a navbar with home, about, and contact links.",
         "timestamp": "07082024203259",
         "message_id": "guest07082024203258"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed or dynamic as the user scrolls down the page?\", \"option1\": \"Fixed at the top of the screen\", \"option2\": \"Dynamic, disappears as the user scrolls down and reappears on scroll up\"}, {\"question 2\": \"Should the navbar adapt its style based on the current page being viewed (indicating the active page) or remain uniform across all pages?\", \"option1\": \"Adapt style to indicate the active page\", \"option2\": \"Remain uniform across all pages\"}], \"input_token_count\": 265, \"output_token_count\": 125, \"time_taken\": \"0:00:07.281771\"}",
+        "timestamp": "07082024203306",
+        "message_id": "guest07082024203258"
     }
 ]
