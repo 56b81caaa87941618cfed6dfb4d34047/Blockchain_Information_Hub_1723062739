@@ -30,5 +30,9 @@
     {
         "level": 1,
         "task_description": "add a button that says Submit"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\nIn the conversation, the user requested various features for a project. They first asked the AI to add a button labeled \"Submit,\" which the AI acknowledged. The user was then presented with a checklist of additional features to consider, including real-time blockchain data updates, user authentication, interactive charts, customizable alerts, a user feedback form, and dark/light mode options, with some features marked as implemented and others not. Following this, a new checklist was provided, suggesting features like sticky header navigation, a dropdown menu under \"About,\" search functionality, live chat support, and options for dark/light mode and language selection. The user was also asked two questions regarding the navbar: whether it should be fixed or dynamic as the user scrolls, and whether it should adapt its style based on the current page or remain uniform. The AI confirmed it would work on adding a navbar with links to home, about, and contact, before requesting more details about the project.\nAI: I will add the sidebar with navlinks home, about and contact.\nUser: add a sidebar with navlinks home, about and contact\nUser: add a sidebar with navlinks home, about and contact\nUser: add a navbar with navlinks home, about and contact\nThis is the user's current request of changes to be made: add a navbar with navlinks home, about and contact"
     }
 ]
