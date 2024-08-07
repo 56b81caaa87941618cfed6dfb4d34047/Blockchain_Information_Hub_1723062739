@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed at the top of the page or should it disappear when scrolling down and reappear on scroll up?\", \"option1\": \"Fixed at the top\", \"option2\": \"Disappear on scroll down, reappear on scroll up\"}, {\"question 2\": \"For the navlinks' design, do you prefer a minimalist style with just underlines on hover, or a more pronounced style with background color changes?\", \"option1\": \"Minimalist style with underlines\", \"option2\": \"Pronounced style with background color changes\"}], \"input_token_count\": 346, \"output_token_count\": 130, \"time_taken\": \"0:00:04.252597\"}",
+        "message_id": "guest07082024203332",
+        "timestamp": "07082024203338",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a navbar with navlinks home, about and contact",
         "message_id": "guest07082024203332",
