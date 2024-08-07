@@ -2,6 +2,20 @@
 */
 Vue.component("simple_footer_component_1723062740", {
     template: `
+    <header id="navbar-section" class="flex-1 bg-white dark:bg-gray-800 shadow-md p-4">
+        <nav id="navbar-container" class="max-w-screen-xl mx-auto flex justify-between items-center">
+            <div id="navbar-logo" class="flex items-center">
+                <img src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                <span class="text-2xl font-semibold text-gray-900 dark:text-white">BlockScan</span>
+            </div>
+            <div id="navbar-links" class="flex space-x-4">
+                <a href="#" class="text-gray-900 dark:text-white hover:text-blue-500">Home</a>
+                <a href="#" class="text-gray-900 dark:text-white hover:text-blue-500">About</a>
+                <a href="#" class="text-gray-900 dark:text-white hover:text-blue-500">Contact</a>
+            </div>
+        </nav>
+    </header>
+
     <footer id="footer-section" class="flex-1 bg-white dark:bg-gray-800">
             <div id="footer-container" class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
                 <hr id="footer-divider" class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
