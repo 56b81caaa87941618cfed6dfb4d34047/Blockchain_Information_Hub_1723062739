@@ -26,7 +26,7 @@ Vue.component("simple_hero_component_1723062740", {
                         </div>
 
                         <div id="hero-button-3-container" class="flex">
-                            <a id="hero-button-3" href="#" class="flex-1 items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">Hello World</a>
+                            <a id="hero-button-3" href="#" class="flex-1 items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-black bg-purple-500 border border-gray-200 rounded-lg shadow-lg sm:w-auto hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 dark:text-white dark:border-gray-700 dark:hover:bg-purple-700 dark:focus:ring-purple-800">Hello World</a>
                         </div>
 
                     
