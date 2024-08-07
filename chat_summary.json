@@ -1,64 +1,98 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1723062740",
-        "component_file_name": "",
-        "div_id": ""
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed at the top of the page or should it disappear when scrolling down and reappear on scroll up?\", \"option1\": \"Fixed at the top\", \"option2\": \"Disappear on scroll down, reappear on scroll up\"}, {\"question 2\": \"For the navlinks' design, do you prefer a minimalist style with just underlines on hover, or a more pronounced style with background color changes?\", \"option1\": \"Minimalist style with underlines\", \"option2\": \"Pronounced style with background color changes\"}], \"input_token_count\": 346, \"output_token_count\": 130, \"time_taken\": \"0:00:04.252597\"}",
+        "message_id": "guest07082024203332",
+        "timestamp": "07082024203338",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "user",
         "content": "add a navbar with navlinks home, about and contact",
-        "timestamp": "07082024203259",
-        "message_id": "guest07082024203258"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Definitely, working on adding a navbar with home, about, and contact links.",
-        "timestamp": "07082024203259",
-        "message_id": "guest07082024203258"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed or dynamic as the user scrolls down the page?\", \"option1\": \"Fixed at the top of the screen\", \"option2\": \"Dynamic, disappears as the user scrolls down and reappears on scroll up\"}, {\"question 2\": \"Should the navbar adapt its style based on the current page being viewed (indicating the active page) or remain uniform across all pages?\", \"option1\": \"Adapt style to indicate the active page\", \"option2\": \"Remain uniform across all pages\"}], \"input_token_count\": 265, \"output_token_count\": 125, \"time_taken\": \"0:00:07.281771\"}",
-        "timestamp": "07082024203306",
-        "message_id": "guest07082024203258"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Sticky header navigation for easy access to main sections at any scroll position\", \"checked\": true}, {\"feature\": \"Dropdown menu under 'About' for additional information like team, technology, and mission\", \"checked\": false}, {\"feature\": \"Search functionality within the navbar to quickly find specific blockchain information\", \"checked\": true}, {\"feature\": \"Live chat support option in the 'Contact' section for immediate assistance\", \"checked\": false}, {\"feature\": \"Dark/light mode toggle on the navbar for user preference\", \"checked\": true}, {\"feature\": \"Language selection option for global user accessibility\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 132, \"time_taken\": \"0:00:07.696307\"}",
-        "timestamp": "07082024203307",
-        "message_id": "guest07082024203258"
-    },
-    {
-        "role": "user",
-        "content": "add a button that says Submit",
-        "timestamp": "07082024203318",
-        "message_id": "guest07082024203317"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Acknowledged, adding a button with the label \"Submit\".",
-        "timestamp": "07082024203318",
-        "message_id": "guest07082024203317"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time blockchain data updates\", \"checked\": true}, {\"feature\": \"User authentication for secure access\", \"checked\": false}, {\"feature\": \"Interactive blockchain charts and graphs\", \"checked\": true}, {\"feature\": \"Customizable alert notifications for blockchain changes\", \"checked\": false}, {\"feature\": \"User feedback form for improvements\", \"checked\": true}, {\"feature\": \"Dark and light mode for better UI experience\", \"checked\": false}], \"input_token_count\": 214, \"output_token_count\": 96, \"time_taken\": \"0:00:06.223784\"}",
-        "timestamp": "07082024203325",
-        "message_id": "guest07082024203317"
+        "message_id": "guest07082024203332",
+        "timestamp": "07082024203332",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Submit' button to be positioned on the page?\", \"option1\": \"At the bottom of the form\", \"option2\": \"Fixed at the bottom of the screen as the user scrolls\"}, {\"question 2\": \"What action should occur when the 'Submit' button is clicked?\", \"option1\": \"Send form data to an email address\", \"option2\": \"Store form data in the database and display a confirmation message\"}], \"input_token_count\": 260, \"output_token_count\": 108, \"time_taken\": \"0:00:06.982365\"}",
+        "message_id": "guest07082024203317",
         "timestamp": "07082024203326",
-        "message_id": "guest07082024203317"
+        "component_file_name": "simple_header_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time blockchain data updates\", \"checked\": true}, {\"feature\": \"User authentication for secure access\", \"checked\": false}, {\"feature\": \"Interactive blockchain charts and graphs\", \"checked\": true}, {\"feature\": \"Customizable alert notifications for blockchain changes\", \"checked\": false}, {\"feature\": \"User feedback form for improvements\", \"checked\": true}, {\"feature\": \"Dark and light mode for better UI experience\", \"checked\": false}], \"input_token_count\": 214, \"output_token_count\": 96, \"time_taken\": \"0:00:06.223784\"}",
+        "message_id": "guest07082024203317",
+        "timestamp": "07082024203325",
+        "component_file_name": "simple_header_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Acknowledged, adding a button with the label \"Submit\".",
+        "message_id": "guest07082024203317",
+        "timestamp": "07082024203318",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says Submit",
+        "message_id": "guest07082024203317",
+        "timestamp": "07082024203318",
+        "component_file_name": "simple_header_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Sticky header navigation for easy access to main sections at any scroll position\", \"checked\": true}, {\"feature\": \"Dropdown menu under 'About' for additional information like team, technology, and mission\", \"checked\": false}, {\"feature\": \"Search functionality within the navbar to quickly find specific blockchain information\", \"checked\": true}, {\"feature\": \"Live chat support option in the 'Contact' section for immediate assistance\", \"checked\": false}, {\"feature\": \"Dark/light mode toggle on the navbar for user preference\", \"checked\": true}, {\"feature\": \"Language selection option for global user accessibility\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 132, \"time_taken\": \"0:00:07.696307\"}",
+        "message_id": "guest07082024203258",
+        "timestamp": "07082024203307",
+        "component_file_name": "simple_header_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed or dynamic as the user scrolls down the page?\", \"option1\": \"Fixed at the top of the screen\", \"option2\": \"Dynamic, disappears as the user scrolls down and reappears on scroll up\"}, {\"question 2\": \"Should the navbar adapt its style based on the current page being viewed (indicating the active page) or remain uniform across all pages?\", \"option1\": \"Adapt style to indicate the active page\", \"option2\": \"Remain uniform across all pages\"}], \"input_token_count\": 265, \"output_token_count\": 125, \"time_taken\": \"0:00:07.281771\"}",
+        "message_id": "guest07082024203258",
+        "timestamp": "07082024203306",
+        "component_file_name": "simple_header_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Definitely, working on adding a navbar with home, about, and contact links.",
+        "message_id": "guest07082024203258",
+        "timestamp": "07082024203259",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "user",
         "content": "add a navbar with navlinks home, about and contact",
-        "timestamp": "07082024203332",
+        "message_id": "guest07082024203258",
+        "timestamp": "07082024203259",
+        "component_file_name": "simple_header_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Can you describe the project a bit more?",
+        "timestamp": "07082024203338",
         "message_id": "guest07082024203332"
     }
 ]
