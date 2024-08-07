@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Submit' button to be positioned on the app's interface?\", \"option1\": \"At the bottom of the form\", \"option2\": \"Fixed at the bottom of the screen, always accessible\"}, {\"question 2\": \"What action should happen when the 'Submit' button is pressed?\", \"option1\": \"Direct data submission without confirmation\", \"option2\": \"Show a confirmation dialogue before submitting\"}], \"input_token_count\": 260, \"output_token_count\": 102, \"time_taken\": \"0:00:02.484399\"}",
+        "message_id": "guest07082024203444",
+        "timestamp": "07082024203448",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Acknowledged, adding a button with text \"Submit\".",
         "message_id": "guest07082024203444",
