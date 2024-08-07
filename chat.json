@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the sidebar to be always visible or to appear upon a user action, such as clicking a menu icon?\", \"option1\": \"Always visible\", \"option2\": \"Appear upon user action\"}, {\"question 2\": \"Should the sidebar be positioned on the left or right side of the screen?\", \"option1\": \"Left side\", \"option2\": \"Right side\"}], \"input_token_count\": 401, \"output_token_count\": 93, \"time_taken\": \"0:00:03.052639\"}",
+        "message_id": "guest07082024203429",
+        "timestamp": "07082024203433",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "I will add the sidebar with navlinks home, about and contact.",
         "message_id": "guest07082024203429",
