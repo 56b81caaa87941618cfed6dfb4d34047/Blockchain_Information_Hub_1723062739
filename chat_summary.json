@@ -1,5 +1,50 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned on the app's interface?\", \"option1\": \"In the center of the homepage\", \"option2\": \"At the bottom of the screen as a floating action button\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is pressed?\", \"option1\": \"Display a pop-up message saying 'Hello World'\", \"option2\": \"Navigate to a new page with detailed information\"}], \"input_token_count\": 261, \"output_token_count\": 111, \"time_taken\": \"0:00:03.266184\"}",
+        "message_id": "guest07082024203732",
+        "timestamp": "07082024203737",
+        "component_file_name": "simple_hero_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time blockchain news updates toggle\", \"checked\": true}, {\"feature\": \"Customizable push notifications for favorite blockchain topics\", \"checked\": false}, {\"feature\": \"Dark/Light mode UI switch for better readability\", \"checked\": true}, {\"feature\": \"Interactive blockchain market trends graphs\", \"checked\": false}, {\"feature\": \"Search functionality with advanced filters\", \"checked\": true}, {\"feature\": \"Bookmarking capability for important updates\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 94, \"time_taken\": \"0:00:02.873356\"}",
+        "message_id": "guest07082024203732",
+        "timestamp": "07082024203736",
+        "component_file_name": "simple_hero_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Alright, adding a button with text \"Hello World\".",
+        "message_id": "guest07082024203732",
+        "timestamp": "07082024203734",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest07082024203732",
+        "timestamp": "07082024203733",
+        "component_file_name": "simple_hero_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed at the top of the page as users scroll, or should it only appear at the top of each page?\", \"option1\": \"Fixed at the top as users scroll\", \"option2\": \"Only appear at the top of each page\"}, {\"question 2\": \"Do you want the navbar style to adapt based on the current page (e.g., color changes) or remain consistent across all pages?\", \"option1\": \"Adapt based on the current page\", \"option2\": \"Remain consistent across all pages\"}], \"input_token_count\": 537, \"output_token_count\": 129, \"time_taken\": \"0:00:03.462948\"}",
+        "message_id": "guest07082024203500",
+        "timestamp": "07082024203505",
+        "component_file_name": "simple_cta_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a navbar with navlinks home, about and contact",
         "message_id": "guest07082024203500",
@@ -45,54 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the sidebar to be always visible or to appear upon a user action, such as clicking a menu icon?\", \"option1\": \"Always visible\", \"option2\": \"Appear upon user action\"}, {\"question 2\": \"Should the sidebar be positioned on the left or right side of the screen?\", \"option1\": \"Left side\", \"option2\": \"Right side\"}], \"input_token_count\": 401, \"output_token_count\": 93, \"time_taken\": \"0:00:03.052639\"}",
-        "message_id": "guest07082024203429",
-        "timestamp": "07082024203433",
-        "component_file_name": "simple_footer_component_1723062740",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "I will add the sidebar with navlinks home, about and contact.",
-        "message_id": "guest07082024203429",
-        "timestamp": "07082024203430",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "add a sidebar with navlinks home, about and contact",
-        "message_id": "guest07082024203429",
-        "timestamp": "07082024203430",
-        "component_file_name": "simple_footer_component_1723062740",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time blockchain news feed on the homepage\", \"checked\": true}, {\"feature\": \"Interactive blockchain technology explainer in the About section\", \"checked\": false}, {\"feature\": \"Live chat support on the Contact page\", \"checked\": true}, {\"feature\": \"Search functionality to explore blockchain topics\", \"checked\": true}, {\"feature\": \"Subscription form for blockchain updates newsletters\", \"checked\": false}, {\"feature\": \"Responsive design for mobile and tablet views\", \"checked\": true}], \"input_token_count\": 219, \"output_token_count\": 104, \"time_taken\": \"0:00:03.619872\"}",
-        "message_id": "guest07082024203355",
-        "timestamp": "07082024203400",
-        "component_file_name": "simple_footer_component_1723062740",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the sidebar to be fixed or collapsible?\", \"option1\": \"Fixed - It will always be visible on the side of the page.\", \"option2\": \"Collapsible - Users can choose to expand or hide it.\"}, {\"question 2\": \"On which side of the page do you prefer the sidebar to be?\", \"option1\": \"Left side of the page.\", \"option2\": \"Right side of the page.\"}], \"input_token_count\": 265, \"output_token_count\": 104, \"time_taken\": \"0:00:03.564276\"}",
-        "message_id": "guest07082024203355",
-        "timestamp": "07082024203400",
-        "component_file_name": "simple_footer_component_1723062740",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "The user requested a sidebar with navigation links titled \"home,\" \"about,\" and \"contact.\" The AI offered a checklist of additional features to consider, including user authentication, a real-time blockchain news feed, a \"Favorites\" section, search functionality, and social media sharing options, some of which the user indicated were completed. The AI also posed questions regarding the navbar's design and submit button position, offering various options for each. Subsequently, the user requested the addition of a \"Submit\" button, which the AI acknowledged. In another series of questions, the AI inquired whether the navbar should remain fixed at the top or be dynamic when scrolling and whether it should adapt its style to indicate the current page. After confirming the request for a navbar with the specified links, the AI asked the user to describe the project further.",
-        "timestamp": "07082024203501",
-        "message_id": "guest07082024203500"
+        "content": "The user requested the addition of a sidebar with navigation links for \"home,\" \"about,\" and \"contact.\" The AI confirmed it would add the sidebar and presented two questions regarding its design: whether the sidebar should be always visible or appear upon user action, and its positioning on the left or right side of the screen. The user responded with instructions to add the sidebar. A list of potential features followed, where the user indicated preferences for implementing a real-time blockchain news feed, live chat support, a search function, and a responsive design, among others. The AI acknowledged these implementations.\n\nSubsequently, the user asked for a navbar with the same navigation links and was again presented with two questions about the navbar's design: whether it should be fixed at the top scrolling down or disappear and reappear on scroll, along with options regarding the style of the navlinks. The user reiterated the request for the navbar.\n\nFurther discussions elicited additional features to implement, such as user authentication, interactive blockchain charts, and customizable alerts. The user also asked for a \"Submit\" button, prompting the AI to confirm its addition. The user continued to express interest in additional features like dark/light mode toggles, language selection options, and sticky header navigation, which the AI acknowledged and worked on. \n\nLastly, the AI sought more details about the project from the user, emphasizing the ongoing support in adding the requested elements.",
+        "timestamp": "07082024203737",
+        "message_id": "guest07082024203732"
     }
 ]
