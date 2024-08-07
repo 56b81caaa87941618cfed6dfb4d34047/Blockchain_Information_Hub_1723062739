@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add a sidebar with navlinks home, about and contact",
+        "message_id": "guest07082024203355",
+        "timestamp": "07082024203356",
+        "component_file_name": "simple_footer_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a user authentication feature for secure login and registration\", \"checked\": true}, {\"feature\": \"Integrate a real-time blockchain news feed on the homepage\", \"checked\": false}, {\"feature\": \"Implement a 'Favorites' section for users to save interesting blockchain information\", \"checked\": true}, {\"feature\": \"Include a search functionality to filter blockchain information by keywords\", \"checked\": true}, {\"feature\": \"Add social media sharing options for each piece of blockchain information\", \"checked\": false}], \"input_token_count\": 300, \"output_token_count\": 116, \"time_taken\": \"0:00:06.766159\"}",
         "message_id": "guest07082024203332",
