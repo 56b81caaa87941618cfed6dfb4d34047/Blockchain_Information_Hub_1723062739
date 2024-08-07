@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the navbar to be added, do you prefer it to have a dynamic or a static nature?\", \"option1\": \"Dynamic - appears or changes upon user action\", \"option2\": \"Static - always displayed in its position\"}, {\"question 2\": \"Should the navbar design complement the sidebar in terms of aesthetic, or are you looking for a contrasting style?\", \"option1\": \"Complement - similar design and color scheme as the sidebar\", \"option2\": \"Contrast - introduce a different style and color scheme\"}], \"input_token_count\": 631, \"output_token_count\": 121, \"time_taken\": \"0:00:05.276827\"}",
+        "message_id": "guest07082024203750",
+        "timestamp": "07082024203759",
+        "component_file_name": "simple_hero_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a navbar with navlinks home, about and contact",
         "message_id": "guest07082024203750",
