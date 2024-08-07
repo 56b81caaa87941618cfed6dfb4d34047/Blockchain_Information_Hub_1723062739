@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest07082024203732",
+        "timestamp": "07082024203733",
+        "component_file_name": "simple_hero_component_1723062740",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed at the top of the page as users scroll, or should it only appear at the top of each page?\", \"option1\": \"Fixed at the top as users scroll\", \"option2\": \"Only appear at the top of each page\"}, {\"question 2\": \"Do you want the navbar style to adapt based on the current page (e.g., color changes) or remain consistent across all pages?\", \"option1\": \"Adapt based on the current page\", \"option2\": \"Remain consistent across all pages\"}], \"input_token_count\": 537, \"output_token_count\": 129, \"time_taken\": \"0:00:03.462948\"}",
         "message_id": "guest07082024203500",
