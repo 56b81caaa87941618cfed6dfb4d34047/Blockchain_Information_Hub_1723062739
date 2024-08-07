@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\n\nUser: add a navbar with navlinks home, about and contact\nAI: Definitely, working on adding a navbar with home, about, and contact links.\nUser: add a button that says Submit\nAI: Acknowledged, adding a button with the label \"Submit\".\nThis is the user's current request of changes to be made: add a navbar with navlinks home, about and contact"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nUser: add a navbar with navlinks home, about and contact\nAI: Definitely, working on adding a navbar with home, about, and contact links.\nUser: add a button that says Submit\nAI: Acknowledged, adding a button with the label \"Submit\".\nThis is the user's current request of changes to be made: add a navbar with navlinks home, about and contact"
     }
 ]
