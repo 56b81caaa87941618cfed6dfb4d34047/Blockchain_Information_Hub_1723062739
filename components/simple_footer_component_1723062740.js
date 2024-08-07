@@ -41,7 +41,19 @@ Vue.component("simple_footer_component_1723062740", {
                     <div id="footer-text" class="flex-1 block text-sm text-center text-gray-500">
                         © 2023 BlockScan. Empowering users with real-time blockchain insights. Stay informed, stay ahead.
                     </div>
-                </div>
+
+                    <div class="flex">
+                        <div id="footer-text" class="flex-1 block text-sm text-center text-gray-500">
+                            © 2023 BlockScan. Empowering users with real-time blockchain insights. Stay informed, stay ahead.
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center mt-4">
+                        <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded shadow-md">
+                            Submit
+                        </button>
+                    </div>
+                    
             </div>
         </footer> 
     `,
